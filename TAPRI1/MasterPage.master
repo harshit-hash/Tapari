@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <div id="preloader">
+        </div>
+        <!-- Progress scroll totop -->
+        <div class="progress-wrap cursor-pointer">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+        </div>
+        <!-- Mouse cursor -->
+        <div class="mouse-cursor cursor-outer">
+        </div>
+        <div class="mouse-cursor cursor-inner">
+        </div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper valign">
+                                <div class="logo">
+                    <h2><a href="https://shtheme.org/demosd/winta/">Tapri</a><span>Ready For Meal</span></h2>
+                </div>
+                            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-bar"><i class="ti-line-double"></i></span> </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class=" navbar-nav ml-auto "><li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-31 current_page_item menu-item-63 nav-item active"><a   title="Home" href="https://shtheme.org/demosd/winta/" class="nav-link">Home</a></li>
+<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item"><a   title="About" href="https://shtheme.org/demosd/winta/?page_id=34" class="nav-link">About</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61 nav-item"><a   title="Menu" href="https://shtheme.org/demosd/winta/?page_id=37" class="nav-link">Menu</a></li>
+<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item"><a   title="Gallery" href="https://shtheme.org/demosd/winta/?page_id=39" class="nav-link">Gallery</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item"><a   title="Contact" href="https://shtheme.org/demosd/winta/?page_id=41" class="nav-link">Contact</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64 nav-item"><a   title="News" href="https://shtheme.org/demosd/winta/?page_id=29" class="nav-link">News</a></li>
+</ul>            </div>
+        </div>
+    </nav>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+     <footer class="main-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-30">
+                                            <div ><div class="textwidget custom-html-widget"><div class="item abot">
+    <div class="logo mb-20">
+        <h2><a href="https://shtheme.org/demosd/winta">Tapri</a><span>Ready For Meal</span></h2>
+    </div>
+    <p>Tapri is a Online Food Delivery and Hotel plateform.</p>
+    <div class="social-icon">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" style="padding:15px;"></i></a>
+        <a href="http://twitter.com/"><i class="fa-brands fa-twitter" style="padding:15px;"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="padding:15px;"></i></a>
+        <a href="https://www.pinterest.com/"><i class="fa-brands fa-github" style="padding:15px;"></i></a>
+    </div>
+</div></div></div>                                    </div>
+                <div class="col-md-2 offset-md-1 mb-30">
+                                            <div ><div class="textwidget custom-html-widget"><div class="item fotcont">
+	<div class="fothead">
+		<h6>Phone & Email</h6>
+	</div>
+	<p>+91 626-070-1427</p>
+	<p>food@tapri.com</p>
+</div></div></div>                                    </div>
+                <div class="col-md-2 offset-md-1 mb-30">
+                                            <div ><div class="textwidget custom-html-widget"><div class="item fotcont">
+    <div class="fothead">
+        <h6>Our Address</h6>
+    </div>
+    <p>Raipur CG</p>
+</div></div></div>                                    </div>
+                <div class="col-md-2 offset-md-1 mb-30">
+                                            <div ><div class="textwidget custom-html-widget"><div class="item fotcont">
+    <div class="fothead">
+        <h6>Opening Hours</h6>
+    </div>
+    <p>Mon-Fri: 12 PM - 7 PM Sat-Sun: 10 AM - 10 PM</p>
+</div></div></div>                                    </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="text-left">
+                                                        <p>© 2021 Tapri . All right reserved.</p>
+                                                    </div>
+                    </div>
+                    <div class="col-lg-4">
+                                                <p class="right"><a href="https://shtheme.org/demosd/winta/?page_id=41">Terms & Conditions</a></p>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </form>
+</body>
+</html>
